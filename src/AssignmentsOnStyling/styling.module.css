@@ -1,0 +1,10 @@
+.success{
+    background-color: aqua;
+    color:red;   
+}
+.custom{
+    font-size: 30px;
+  background-color: blue;  
+  color: white;
+  padding: auto;
+}

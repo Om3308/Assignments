@@ -1,25 +1,46 @@
 import logo from './logo.svg';
 import './App.css';
+//import Employee from'./AssignmentOnFunctionalComponent/Employee';
+//import StateChange from'./AssignmentOnState/ChangeStateEg';
+import PropDemo from './AssignmentOnState/PropsChildren';
+import CurrentDateWithEventBinding from './AssignmentOnState/CurrentTimeWithBinding';
+import ListFruits from './AssignmentOnRendering/DisplayList';
+import MultiplyNo from './AssignmentOnRendering/DisplayWithMultiplication';
+import UseOfKey from './AssignmentOnRendering/UsekeyAttributeIndex';
+import DisplayPersonList from './AssignmentOnRendering/PersonList';
+import InlineStyling from './AssignmentsOnStyling/InlineStyling';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      {/* <h1>I am in Assignment App</h1> */}
 
+      {/* Assignment 3
+      <Employee id="101" name="Vijay"/> */}
+
+      {/* Assignment 4
+      <Employee name="Jay" heroname="Batman"/>
+      <Employee name="Ansh" heroname="SuperMan"/>
+      <Employee name="Sara" heroname="Wonder Women"/> */}
+
+      {/* <StateChange/> */}
+      {/* <Count1/> */}
+      {/* <PropDemo name="Omkar"/> */}
+      {/* Assignment 7 (Show Current Date With State And Event Binding ) */}
+      {/* <CurrentDateWithEventBinding/> */}
+
+      {/* assignment on Rendering
+      <ListFruits/>
+      <MultiplyNo/>
+      <UseOfKey/>
+      <DisplayPersonList/> */}
+
+      
+      {/* AssignmentsOnStyling
+      <InlineStyling/> */}
+
+
+    </div>
+  )
+}
 export default App;
