@@ -9,6 +9,7 @@ import MultiplyNo from './AssignmentOnRendering/DisplayWithMultiplication';
 import UseOfKey from './AssignmentOnRendering/UsekeyAttributeIndex';
 import DisplayPersonList from './AssignmentOnRendering/PersonList';
 import InlineStyling from './AssignmentsOnStyling/InlineStyling';
+import Form from './ExtraAssignments/Form';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       
       {/* AssignmentsOnStyling
       <InlineStyling/> */}
+      <Form/>
 
 
     </div>
