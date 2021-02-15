@@ -11,6 +11,8 @@ import DisplayPersonList from './AssignmentOnRendering/PersonList';
 import InlineStyling from './AssignmentsOnStyling/InlineStyling';
 import Form from './ExtraAssignments/Form';
 import UserForm from './ExtraAssignments/Form';
+import EmployeeForm from './ExtraAssignments/EmployeeForm';
+import ClockFunction from './ExtraAssignments/DigitalClock';
 
 function App() {
   return (
@@ -40,7 +42,10 @@ function App() {
       
       {/* AssignmentsOnStyling
       <InlineStyling/> */}
-      <UserForm/>
+      {/* <UserForm/> */}
+
+      {/* <EmployeeForm/> */}
+      <ClockFunction/>
 
 
     </div>
