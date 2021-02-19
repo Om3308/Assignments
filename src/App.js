@@ -13,6 +13,10 @@ import Form from './ExtraAssignments/Form';
 import UserForm from './ExtraAssignments/Form';
 import EmployeeForm from './ExtraAssignments/EmployeeForm';
 import ClockFunction from './ExtraAssignments/DigitalClock';
+import RenderChildren from './AssignmentsOnFragments,Component/RenderChildren';
+import ClickCounts from './AssignmentsOnFragments,Component/ClickCounts';
+import MouseOver from './AssignmentsOnFragments,Component/MouseOver';
+import PortalCompDemo from './AssignmentsOnFragments,Component/PortalCompDemo';
 
 function App() {
   return (
@@ -45,8 +49,15 @@ function App() {
       {/* <UserForm/> */}
 
       {/* <EmployeeForm/> */}
-      <ClockFunction/>
+      {/* <ClockFunction/> */}
+      
+      {/* <RenderChildren name="Raj" id="10"> <h2>These is example of render Children</h2></RenderChildren>
+      <RenderChildren name="Sonali" id="21"> <button> Click me</button></RenderChildren>
+      <RenderChildren name="Pragati" id="22"> <h2> i love react</h2></RenderChildren> */}
 
+      {/* <ClickCounts/>
+      <MouseOver/> */}
+      <PortalCompDemo/>
 
     </div>
   )

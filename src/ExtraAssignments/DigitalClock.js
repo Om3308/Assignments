@@ -8,7 +8,7 @@ class ClockFunction extends React.Component
         }, 1 * 1000); 
     }
     componentWillUnmount() { 
-        //console.log("in Component Will Update")
+        console.log("in Component Will Update")
         clearInterval(this.update);
     }
         
