@@ -17,6 +17,16 @@ import RenderChildren from './AssignmentsOnFragments,Component/RenderChildren';
 import ClickCounts from './AssignmentsOnFragments,Component/ClickCounts';
 import MouseOver from './AssignmentsOnFragments,Component/MouseOver';
 import PortalCompDemo from './AssignmentsOnFragments,Component/PortalCompDemo';
+import MemoMovieName from './AssignmentsOnFragments,Component/MemoMovieName';
+import PortalAssignmentDemo from './AssignmentsOnFragments,Component/portalAssignment';
+import RenderProp from './AssignmentsOnFragments,Component/RenderProp';
+import ClickRender from'./AssignmentsOnFragments,Component/ClickRender';
+import MouseRender from'./AssignmentsOnFragments,Component/MouseRender';
+import Crud1 from './AssignmentCrudApplications/Crud1';
+import Stud_info from './AssignmentsOnRouting/Student_info';
+import CrudExample from './AssignmentCrudApplications/CrudExample';
+import Login from './AssignmentCrudApplications/Login';
+import Management from './AssignmentCrudApplications/Management';
 
 function App() {
   return (
@@ -57,8 +67,23 @@ function App() {
 
       {/* <ClickCounts/>
       <MouseOver/> */}
-      <PortalCompDemo/>
+      {/* <PortalCompDemo/> */}
+      {/* <MemoMovieName name="RajVeer" Date="23/12/2014"/> */}
+      {/* <PortalAssignmentDemo/> */}
+     
+      {/* <RenderProp render={(count,increment)=>{
+        <ClickRender count={count} increment={increment}/>
+      }}/> */}
 
+      {/* <RenderProp render={(count,increment)=>{
+        <MouseRender count={count} increment={increment}/>
+      }}/> */}
+
+      {/* <Crud1/> */}
+      {/* <Assignment1/> */}
+      {/* <Stud_info/> */}
+    {/* <CrudExample/> */}
+    <Management/>
     </div>
   )
 }
