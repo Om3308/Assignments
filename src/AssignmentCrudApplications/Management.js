@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Admin from './Admin';
 import Employee from './Employee';
-import Login from './Login';
+import UserForm from './Login';
 
 class Management extends Component {
     render() {
@@ -10,7 +10,7 @@ class Management extends Component {
             <div>
                 <BrowserRouter>
                 <Switch>
-                    <Route exact path="/" component={Login}/>
+                     <Route path="/" component={UserForm}/>
                     <Route  path="./Admin.js" component={Admin}/>
                     <Route path="./Employee.js" component={Employee}/>
                 </Switch>

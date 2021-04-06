@@ -6,7 +6,6 @@ class Employee extends Component {
         return (
             <div>
                 <h1>I am in Employee</h1>
-                <Link to="./Login.js">logout</Link>
             </div>
         );
     }
